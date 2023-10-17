@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For beginners looking to showcase their skills, GitHub serves as an invaluable platform to host a project portfolio. Not only does it allow for seamless collaboration on software development tasks, but it also offers an excellent way to document your projects comprehensively. One of the simplest tools to achieve this is Markdown. This lightweight markup language enables you to create well-formatted text documents without the need for specialized software. Its ease of use and straightforward syntax make it ideal for crafting READMEs, wikis, and other essential documentation that adds a professional touch to your GitHub projects.
+For beginners looking to showcase their skills, GitHub serves as an invaluable platform to host a project portfolio. When I first started building my own Project Portfolio on GitHub, I faced many challenges and struggles. Now, I'm sharing what I've learned to help those who are also finding it difficult to get started with their portfolios on GitHub. Not only does GitHub allow for seamless collaboration on software development tasks, but it also offers an excellent way to document your projects comprehensively. One of the simplest tools to achieve this is Markdown. This lightweight markup language enables you to create well-formatted text documents without the need for specialized software. Its ease of use and straightforward syntax make it ideal for crafting READMEs, wikis, and other essential documentation that adds a professional touch to your GitHub projects.
 
 ## How I Learned Markdown and Found StackEdit
 
@@ -22,7 +22,7 @@ Now let's proceed with creating a repository for a project.
 Creating a repository is your first step in setting up a new project on GitHub. It serves as a container where all files related to your project, including code, documentation, and other resources, are stored. Here's how to do it:
 
 **Log into your GitHub account**: If you don't have one, you can sign up [here](https://github.com/).
-As soon as you login to your account (and if you've just created an account), you'll be greeted with the dashboard (or your hoome screen) and it probably looks like this:
+As soon as you login to your account (and if you've just created an account), you'll be greeted with the dashboard (or your home screen) and it probably looks like this:
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/015f374d-4f65-4ab5-aead-5e5d76e63be7)
 
 My dashboard looks like this
@@ -57,13 +57,13 @@ Visibility: Choose between public and private visibility.
 ![Screenshot 2023-10-17 at 6 11 24 pm](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/f95908fc-42ca-4c94-89c5-44749c6dc820)
 Make sure you click on "Public", as this will be your project portfolio, it will be easily accessible for anyone, or everyone can see your projects.
 
-**Initialize with README**: Check the box to initialize your repository with a README file. This is one of the important aspects of creating a repository.
+**Initialize with README**: Check the box to initialize your repository with a README file. This step is crucial when you're setting up a new repository.
 ![Screenshot 2023-10-17 at 6 12 05 pm](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/e47836f5-05db-4c54-8755-d48ebbd17533)
 
-**Create Repository**: Click the green "Create repository" button to finalize the process (it's bluee button on my account).
+**Create Repository**: Click the green "Create repository" button to finalize the process (it's blue button on my account).
 
 ### Step 2: Clone the Repository (Optional)
-You can clone the repository to your local machine if you prefer to work offline. This is an optional step, if you are constantly online you can skip this step. If you want to continue working on you project offline, you can this do this step. Open your terminal and run:
+You can clone the repository to your local machine if you prefer to work offline. This step is optional. If you're always online, you can skip it. But if you'd like to work offline, follow this step. Open your terminal and run:
 
 ```bash
 git clone [URL_of_your_repository]
@@ -79,7 +79,8 @@ Navigate to the repository and open the README.md file in a text editor by clikc
 ### Step 4: Start Writing in Markdown
 Here are some basic Markdown syntax you can use:
 
-- **Headers**: Use # for a top-level header, ## for a second-level header, and so on.
+#### Headers: 
+Use # for a top-level header, ## for a second-level header, and so on.
 ```markdown
 # Header 1
 ## Header 2
@@ -87,7 +88,9 @@ Here are some basic Markdown syntax you can use:
 It will show like this:
 # Header 1
 ## Header 2
-Lists: Use `-` or `*` for bullet points and `1.` for numbered lists.
+
+#### Lists: 
+Use `-` or `*` for bullet points and `1.` for numbered lists.
 ```markdown
 - Item 1
 - Item 2
@@ -96,33 +99,51 @@ It will show like this:
 - Item 1
 - Item 2
   
-- **Links**: Use [text](URL) to create a hyperlink.
-markdown
+#### Links: Use `[text](URL)` to create a hyperlink.
+```markdown
 Copy code
 [Visit GitHub](https://github.com)
-Images: Use ![alt text](image_URL) to insert an image.
-markdown
-Copy code
+```
+
+#### Images: 
+Use `![alt text](image_URL)` to insert an image.
+```markdown
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-Code: Use backticks to surround inline code and triple backticks for blocks of code.
-markdown
-Copy code
-`inline code`
-For block code:
 ```
-Block of code
+Or you can copy-paste the locatyion URL of the image. What i usually do is, take a screenshot and copy the URL of the image and paste it straight onto here.
+
+#### Code: 
+Use backticks to surround inline code, like SQL, Python, Excel and triple backticks for blocks of code.
+![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/39ca78f1-7a4f-4a1f-a9cd-e84e691f58c2)
+
+It will show up lkike this:
+```sql
+-- Fetch details of total sales from each customer
+SELECT
+    c.customer_id
+  , c.name
+  , ROUND(SUM(s.total_amount), 2) AS total_amount_purchase
+FROM sales s 
+  JOIN customer c
+    ON s.customer_id = c.customer_id
+GROUP BY
+    c.customer_id
+  , c.name
+;
 ```
-Step 5: Save Changes
+With your code (after the triple backticks), you need to specify what type of code you are using, like SQL, Python or Text for Excel equations, to make it colourful, as you can see from the example above.
+
+### Step 5: Save Changes
 After editing the README.md file, save it. If you're working locally, push the changes back to GitHub.
 
-bash
-Copy code
+```bash
 git add README.md
 git commit -m "Updated README"
 git push origin master
-Step 6: Review on GitHub
+```
+### Step 6: Review on GitHub
 Go back to your GitHub repository and refresh the page. You should see the beautifully formatted README.md file.
 
-Conclusion
+## Conclusion
 
 For those just starting out, GitHub is an incredible resource for showcasing your skills through a project portfolio. With the help of Markdown, you can easily document your projects, making them more accessible and professional. Whether you are developing software or simply want to display your work, GitHub and Markdown are tools that can help you achieve your goals.
