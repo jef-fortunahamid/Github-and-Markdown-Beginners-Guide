@@ -101,7 +101,6 @@ It will show like this:
   
 #### Links: Use `[text](URL)` to create a hyperlink.
 ```markdown
-Copy code
 [Visit GitHub](https://github.com)
 ```
 
