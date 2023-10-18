@@ -109,13 +109,13 @@ Use `![alt text](image_URL)` to insert an image.
 ```markdown
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ```
-Or you can copy-paste the locatyion URL of the image. What i usually do is, take a screenshot and copy the URL of the image and paste it straight onto here.
+Or you can copy-paste the location or URL of the image. What I usually do is, take a screenshot and copy the URL of the image and paste it straight onto here.
 
 #### Code: 
 Use backticks to surround inline code, like SQL, Python, Excel and triple backticks for blocks of code.
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/39ca78f1-7a4f-4a1f-a9cd-e84e691f58c2)
 
-It will show up lkike this:
+It will show up like this:
 ```sql
 -- Fetch details of total sales from each customer
 SELECT
