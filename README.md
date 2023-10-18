@@ -35,9 +35,10 @@ Another way is, on the top-left tabs pane you'll see the "+" with the down arrow
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/d6128b9c-b2f4-48ce-9760-b8d43197fc60)
 
 and click on it. This will pop up and click on "New repository".
+
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/9d7b6801-1aea-469f-95b5-89fff120ca1d)
 
-The last option is, on the top-left most you'll see you account button and if you clink on it it will show this pop-up:
+The last option is, on the top-left most you'll see your account button and if you click on it, this pop-up will show:
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/77af0a5a-623b-4391-a577-e848ce56b6a8)
 
 Click on "Your repositories" and this page shows up:
@@ -45,22 +46,28 @@ Click on "Your repositories" and this page shows up:
 
 And click ont the "New" green button.
 
-Whichever way you do it, this will pop up:
+Whichever way you do it, you will be directed to this page:
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/f0c7114f-ea7a-4491-adcf-c9d2e4cf6d1c)
 
 **Fill in Repository Details**:
-Repository Name: Choose a relevant name for your project. Choosing a good repository name is crucial for making your project easily discoverable and understandable.
+
+***Repository Name***: Choose a relevant name for your project. Choosing a good repository name is crucial for making your project easily discoverable and understandable.
+
 ![Screenshot 2023-10-17 at 6 11 09 pm](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/35a0e97d-ef7d-479a-9248-697943aa1b05)
 
-**Description (Optional)**: Add a brief description for better understanding.
-Visibility: Choose between public and private visibility.
+***Description (Optional)***: Add a brief description for better understanding.
+
+***Visibility***: Choose between public and private visibility.
+
 ![Screenshot 2023-10-17 at 6 11 24 pm](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/f95908fc-42ca-4c94-89c5-44749c6dc820)
+
 Make sure you click on "Public", as this will be your project portfolio, it will be easily accessible for anyone, or everyone can see your projects.
 
-**Initialize with README**: Check the box to initialize your repository with a README file. This step is crucial when you're setting up a new repository.
+***Initialize with README***: Check the box to initialize your repository with a README file. This step is crucial when you're setting up a new repository.
+
 ![Screenshot 2023-10-17 at 6 12 05 pm](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/e47836f5-05db-4c54-8755-d48ebbd17533)
 
-**Create Repository**: Click the green "Create repository" button to finalize the process (it's blue button on my account).
+***Create Repository***: Click the green "Create repository" button to finalize the process (it's blue button on my account).
 
 ### Step 2: Clone the Repository (Optional)
 You can clone the repository to your local machine if you prefer to work offline. This step is optional. If you're always online, you can skip it. But if you'd like to work offline, follow this step. Open your terminal and run:
@@ -73,7 +80,7 @@ git clone [URL_of_your_repository]
 As soon the click on the "Create repository" button. it will immediately redirect you to the repository page and it will look like this:
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/db857eb5-de28-499b-a892-454c4b562f16)
 
-Navigate to the repository and open the README.md file in a text editor by clikcing on the "Pen" symbol on the left side of the READme.md. You'll see it's a blank canvas, ready for Markdown formatting.
+Navigate to the repository and open the README.md file in a text editor by clicking on the "Pen" symbol on the left side of the READme.md. You'll see it's a blank canvas, ready for Markdown formatting.
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/51d18bd5-04e8-4d6e-936a-4df51e39856a)
 
 ### Step 4: Start Writing in Markdown
@@ -112,7 +119,7 @@ Use `![alt text](image_URL)` to insert an image.
 Or you can copy-paste the location or URL of the image. What I usually do is, take a screenshot and copy the URL of the image and paste it straight onto here.
 
 #### Code: 
-Use backticks to surround inline code, like SQL, Python, Excel and triple backticks for blocks of code.
+Use backticks to surround inline code and triple backticks for blocks of code, for SQL, Python, Excel.
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/39ca78f1-7a4f-4a1f-a9cd-e84e691f58c2)
 
 It will show up like this:
@@ -131,6 +138,13 @@ GROUP BY
 ;
 ```
 With your code (after the triple backticks), you need to specify what type of code you are using, like SQL, Python or Text for Excel equations, to make it colourful, as you can see from the example above.
+
+For inline code, I use this to hightlight table and column names, functions and formulas. For example:
+```markdown
+`RANK()`
+```
+it will show up like this:
+`RANK()`
 
 ### Step 5: Save Changes
 After editing the README.md file, save it. If you're working locally, push the changes back to GitHub.
