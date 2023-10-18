@@ -39,6 +39,7 @@ and click on it. This will pop up and click on "New repository".
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/9d7b6801-1aea-469f-95b5-89fff120ca1d)
 
 The last option is, on the top-left most you'll see your account button and if you click on it, this pop-up will show:
+
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/77af0a5a-623b-4391-a577-e848ce56b6a8)
 
 Click on "Your repositories" and this page shows up:
