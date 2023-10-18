@@ -81,7 +81,7 @@ git clone [URL_of_your_repository]
 As soon the click on the "Create repository" button. it will immediately redirect you to the repository page and it will look like this:
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/db857eb5-de28-499b-a892-454c4b562f16)
 
-Navigate to the repository and open the README.md file in a text editor by clicking on the "Pen" symbol on the left side of the READme.md. You'll see it's a blank canvas, ready for Markdown formatting.
+Navigate to the repository and open the README.md file in a text editor by clicking on the "Pen" symbol on the right side of the READme.md. You'll see it's a blank canvas, ready for Markdown formatting.
 ![image](https://github.com/jef-fortunahamid/Github-and-Markdown-Beginners-Guide/assets/125134025/51d18bd5-04e8-4d6e-936a-4df51e39856a)
 
 ### Step 4: Start Writing in Markdown
